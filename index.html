@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesapla.com</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script></head>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand text-danger" href="#">Hesapla.net</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-item nav-link active text-primary" href="#">Sınav</a>
+            <a class="nav-item nav-link text-primary" href="#">Eğitim</a>
+          </div>
+        </div>
+      </nav><br><br>
+      
+      
+      
+
+
+      <p class="h1 text">Üniversite Ders Notu Ortalaması Hesaplama  </p>
+     
+      
+    <p class="lead"> Üniversite Vize ve final notu girilerek ders'in not ortalamasını almak için, vize notunu ve yüzdesini giriniz daha sonra final notunu ve yüzdesini giriniz. 
+        Hesapla butonuna basınız. Ardında sonuç ekranda çıkacaktır.</p><br>
+
+
+
+        
+        <div class="kapsul">
+          <p class="baslık">Dönem Sonu Ders Notu Ortalaması Hesaplama</p>
+          <br>
+          <div class="satir">
+              <br>
+              <div class="sutun">
+                  <br>
+                  <div class="input-kapsul">
+                      <br>
+                      <input type="text" class="input ders-adı" placeholder="Ders adını giriniz" autocomplete="new-password">
+                      <br>
+                  </div>
+                  <br>
+                  <div class="input-kapsul">
+                    <br>
+                    <input type="text" class="input ders-kredisi" placeholder="Ders kredisi giriniz" autocomplete="new-password">
+                    <br>
+                </div>
+
+                  <br>
+              </div>
+              
+       
+          </div>
+          <div class="satir">
+            <div class="sutun">
+              <br>
+              <div class="input-kapsul">
+                <br>
+                <input type="text" class="input vize-notu" placeholder="Vize notunu giriniz" autocomplete="new-password">
+                <br>
+            </div>
+             
+              <br>
+              <div class="input-kapsul">
+                  <br>
+                  <input type="text" class="input vize-yuzde" placeholder="Vize yüzdesi giriniz" autocomplete="new-password">
+                  <br>
+              </div>
+              <br>
+          </div>
+          </div>
+
+
+          <div class="satir">
+              <div class="sutun">
+                  <div class="input-kapsul">
+                      <br>
+                      <input type="text" class="input final-notu" placeholder="Final notunu giriniz" autocomplete="new-password">
+                      <br>
+                  </div>
+              </div>
+              <div class="sutun">
+                  <div class="input-kapsul">
+                      <br>
+                      <input type="text" class="input final-yuzde" placeholder="Final yüzdesi giriniz" autocomplete="new-password">
+                      <br>
+                  </div>
+              </div>
+          </div>
+          <div class="sonuc">
+              <br>
+          </div>
+          <div class="satir">
+              <div class="buton-kapsul">
+                  <br>
+                  <button class="buton hesapla">Hesapla</button>
+                  <br>
+              </div>
+          </div>
+      </div><br><br>
+
+
+      <p class="h1 text">Dönem not ortalaması nedir? </p>
+     
+      
+      <p class="lead">Öğrencilerin, tamamladıkları yarıyılda almış oldukları derslere ait başarı notları kullanılarak hesap edilen ortalamadır.</p><br>
+      
+      <p class="h1 text">GANO nedir?</p>
+     
+      
+      <p class="lead"> Genel akademik not ortalamasının kısaltmasıdır. İngilizce karşılığı "GPA" şeklinde ifade edilmektedir. Öğrencilerin kayıtlı oldukları eğitim-öğretim programında almış oldukları tüm derslere ait başarı notları ve derslerin kredi sayısı kullanılarak hesap edilen not ortalamasıdır.</p><br>
+      
+
+      
+      <p class="h1 text">GANO nasıl hesaplanır? </p>
+     
+      
+      <p class="lead">Öğrencinin üniversite eğitimi boyunca tüm dönemlerde elde ettiği ağırlıklı krediler toplamının toplam ders kredisine bölünmesiyle hesaplanmaktadır.</p><br>
+      
+      <p class="h1 text">Önemli bilgi </p>
+     
+      
+      <p class="lead"> Unutmayın, bu sistem sadece bir hesaplama aracıdır ve öğrencilerin ders notlarını belirleyen diğer faktörleri göz ardı etmemeleri önemlidir. Öğrencilerin derslerine düzenli çalışmaları, ödevlerini tamamlamaları ve öğretmenleriyle iletişimde olmaları da önemli bir etkendir. Bu sistem, öğrencilerin not ortalamalarını hesaplamak için kullanabilecekleri kullanışlı bir araç olarak tasarlanmıştır.</p><br><br><br><br><br><br><br>
+
+
+        <footer class="text-center text-white fixed-bottom" style="background-color: #f8f9fa;">
+          <!-- Grid container -->
+          <div class="container p-4"></div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color:  #e6e6e6;">
+            © 2023
+            <a class="text-white" href="https://mdbootstrap.com/">Hesapla.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+
+
+        <script src="script.js"></script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script></body>
+
+</body>
+</html>
